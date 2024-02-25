@@ -39,9 +39,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # design-agency
 1. Create Routes ==> Home, Team, Service, Projects, Testimonials
 2. Create ==> NavBar ==> Logo, Navigation Menu, Login, and Registration Button
-3. 
-4.
-5.
-6.
+3. Create Hero Section in Home Page
+4. Create Work Lists Section in Home Page
+5. Create Stat List Section in Home Page
+6. 
 7.
 8.
