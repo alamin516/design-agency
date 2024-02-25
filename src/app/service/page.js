@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "@/components/Navbar/Navbar";
+import React from "react";
 
 const Service = () => {
   return (
-    <div>Service Page</div>
-  )
-}
+    <>
+      <Navbar></Navbar>
+      <div className="px-[100px]">Service Page</div>
+    </>
+  );
+};
 
-export default Service
+export default Service;

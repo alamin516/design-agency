@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "@/components/Navbar/Navbar";
+import React from "react";
 
 const Testimonials = () => {
   return (
-    <div>Testimonials Page</div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="px-[100px]">Testimonials Page</div>
+    </>
+  );
+};
 
-export default Testimonials
+export default Testimonials;
