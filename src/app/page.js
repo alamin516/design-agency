@@ -1,12 +1,11 @@
-import Navbar from "@/components/Navbar/Navbar";
+import HeroSection from "@/components/HeroSection/HeroSection";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <main className="px-[100px]">
-          Home
-      </main>
+        <main>
+          <HeroSection/>
+        </main>
     </>
   );
 }
