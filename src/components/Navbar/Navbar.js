@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className='top-[15px]'>
+    <header className='relative top-[15px]'>
         <div className='py-[5px]'>
             <div className='h-20 flex justify-between items-center'>
                 <div className='logo'>

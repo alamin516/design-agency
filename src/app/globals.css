@@ -16,6 +16,19 @@
 }
 
 
+/* Work List */
+.worklist-card:hover{
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #00000012;
+}
+
+.worklist-card:hover button{
+  color: #ffffff;
+  background: #F55F1D;
+  border-radius: 10px;
+}
+
+
 /* StatList */
 .stat-card{
   width: 288px;
@@ -26,4 +39,28 @@
   align-items: center;
   box-shadow: 4px 9px 20px 0px #00000012;
   border-radius: 20px;
+}
+
+
+/* Newsletter */
+.newsletter{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.newsletter input[type="text"]{
+  padding: 10px 16px;
+}
+
+.newsletter button{
+  padding: 8px 24px;
+  border-radius: 10px;
+  background: #F55F1D;
+  height: 52px;
+  color: #ffffff;
 }
