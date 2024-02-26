@@ -4,7 +4,7 @@ import Navbar from "../../Navbar/Navbar";
 const HeroSection = () => {
   return (
     <div className="bg-[#D7F5DC] pb-[35px]">
-        <Navbar />
+      <Navbar />
       <div className="container-layout">
         <div>
           <div className="flex justify-between gap-[80px]">
@@ -27,12 +27,16 @@ const HeroSection = () => {
                   height={271}
                   width={408}
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
                 <Image
                   src="/images/Rectangle 1242.png"
                   height={271}
                   width={180}
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
               </div>
               <div className="flex justify-end  gap-[18px]">
@@ -41,12 +45,16 @@ const HeroSection = () => {
                   height={164}
                   width={246}
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
                 <Image
                   src="/images/Rectangle 1244.png"
                   height={164}
                   width={345}
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
               </div>
             </div>
@@ -66,24 +74,32 @@ const HeroSection = () => {
             height={30}
             width={142}
             alt=""
+            blurDataURL="/blur.png"
+            placeholder="blur"
           />
           <Image
             src="/images/partner/logos_monday.png"
             height={30}
             width={156}
             alt=""
+            blurDataURL="/blur.png"
+            placeholder="blur"
           />
           <Image
             src="/images/partner/Notion.png"
             height={30}
             width={81}
             alt=""
+            blurDataURL="/blur.png"
+            placeholder="blur"
           />
           <Image
             src="/images/partner/Slack.png"
             height={30}
             width={115}
             alt=""
+            blurDataURL="/blur.png"
+            placeholder="blur"
           />
         </div>
       </div>

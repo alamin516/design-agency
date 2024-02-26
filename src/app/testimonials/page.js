@@ -1,10 +1,10 @@
-import Navbar from "@/components/Navbar/Navbar";
+import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import React from "react";
 
 const Testimonials = () => {
   return (
     <>
-      <Navbar />
+      <Breadcrumb title={"Testimonials"} />
       <div className="px-[100px]">Testimonials Page</div>
     </>
   );

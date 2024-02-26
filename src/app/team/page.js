@@ -26,6 +26,8 @@ const Team = () => {
                   width={392}
                   src="/images/team/Rectangle 2093.png"
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
                 <div className="text-center pt-[25px] pb-[45px]">
                   <h3 className="text-[30px] font-semibold leading-[26px]">
@@ -38,6 +40,7 @@ const Team = () => {
                         height="16"
                         src="/images/social/facebook.png"
                         alt=""
+                        
                       />
                     </Link>
                     {"|"}
@@ -67,6 +70,8 @@ const Team = () => {
                   width={392}
                   src="/images/team/Rectangle 2093 (1).png"
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
                 <div className="text-center pt-[25px] pb-[45px]">
                   <h3 className="text-[30px] font-semibold leading-[26px]">
@@ -108,6 +113,8 @@ const Team = () => {
                   width={392}
                   src="/images/team/Rectangle 2093 (2).png"
                   alt=""
+                  blurDataURL="/blur.png"
+                  placeholder="blur"
                 />
                 <div className="text-center pt-[25px] pb-[45px]">
                   <h3 className="text-[30px] font-semibold leading-[26px]">
