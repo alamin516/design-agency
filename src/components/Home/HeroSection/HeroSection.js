@@ -4,8 +4,8 @@ import Navbar from "../../Navbar/Navbar";
 const HeroSection = () => {
   return (
     <div className="bg-[#D7F5DC] pb-[35px]">
-      <div className="w-[1440px] px-[100px] mx-auto">
         <Navbar />
+      <div className="container-layout">
         <div>
           <div className="flex justify-between gap-[80px]">
             <div className="w-1/2 pt-[100px]">

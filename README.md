@@ -1,15 +1,3 @@
-This is a [`live link`] project with [`create-next-app`] (`gitlink`).
-
-## Getting Started
-
-First, run the development server:
-npm run dev
-
-
-## Deploy on Vercel
-
-
-
 # design-agency
 <!-- Common Components -->
 1. Create Routes ==> Home, Team, Service, Projects, Testimonials
@@ -22,3 +10,9 @@ npm run dev
 <!-- Common Components -->
 7. Create Newsletter section
 8. Create Footer
+
+
+
+# Live Link
+This is a [`live link`] project
+

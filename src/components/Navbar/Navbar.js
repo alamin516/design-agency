@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header className='relative top-[15px]'>
-        <div className='py-[5px]'>
+        <div className='container-layout py-[5px]'>
             <div className='h-20 flex justify-between items-center'>
                 <div className='logo'>
                     <h2 className='text-xl font-bold'><Link href="/">Design<span className='text-[#F6551A]'>AGENCY</span></Link></h2>
