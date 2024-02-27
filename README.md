@@ -4,7 +4,7 @@
 1. NEXT Js
 2. Tailwind CSS
 
-
+# STEPS
 <!-- Common Components -->
 1. Create Routes ==> Home, Team, Service, Projects, Testimonials
 2. Create ==> NavBar ==> Logo, Navigation Menu, Login, and Registration Button
@@ -26,6 +26,9 @@
 <!-- Testimonial Page -->
 13. Create testimonials section in the Testimonial page.
 
+
+# Hosting for develop
+14. Vercel 
 
 # Live Link
 This is a [\[`live link`\]](https://design-agency-next.vercel.app/testimonials) project
