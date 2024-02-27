@@ -27,10 +27,10 @@ const Navbar = () => {
                             <Link href="/testimonials">Testimonials</Link>
                         </li>
                         <li className='w-[93px] flex gap-[10px] justify-center p-[10px] leading-6 border-[1px] rounded-[10px] border-[#20B15A] text-base font-medium'>
-                            <Link href="/login">Login</Link>
+                            <Link href="#">Login</Link>
                         </li>
                         <li className='w-[105px] flex gap-[10px] justify-center p-[10px] leading-6 rounded-[10px] bg-[#20B15A] text-base text-white font-medium'>
-                            <Link href="/register">Register</Link>
+                            <Link href="#">Register</Link>
                         </li>
                     </ul>
                 </div>
