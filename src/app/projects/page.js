@@ -1,11 +1,8 @@
-import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import Image from "next/image";
-import React from "react";
 
 const Projects = () => {
   return (
     <>
-      <Breadcrumb title={"All Project"} />
       <div className="container-layout">
         <div className="py-[67px]">
           <div className="w-[495px] mb-[50px]">

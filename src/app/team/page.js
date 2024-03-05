@@ -1,4 +1,3 @@
-import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,7 +6,6 @@ const Team = () => {
 
   return (
     <>
-      <Breadcrumb title={"Team"} />
       <div>
         <div className="container-layout">
           <div className="py-[67px]">

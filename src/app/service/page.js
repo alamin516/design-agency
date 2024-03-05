@@ -1,10 +1,8 @@
-import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import Image from "next/image";
 
 const Service = () => {
   return (
     <>
-      <Breadcrumb title={"Our Service"} />
       <div className="container-layout">
         <div className="py-[67px]">
           <div className="w-[495px] mb-[50px]">
