@@ -33,7 +33,7 @@ const Team = () => {
                   <h3 className="text-[30px] font-semibold leading-[26px]">
                     Devon Lane
                   </h3>
-                  <div className="w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
                     <Link href="#">
                       <Image
                         width="10"
@@ -77,7 +77,7 @@ const Team = () => {
                   <h3 className="text-[30px] font-semibold leading-[26px]">
                     Danny Bailey
                   </h3>
-                  <div className="w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
                     <Link href="#">
                       <Image
                         width="10"
@@ -120,7 +120,7 @@ const Team = () => {
                   <h3 className="text-[30px] font-semibold leading-[26px]">
                     Alex Lov
                   </h3>
-                  <div className="w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
                     <Link href="#">
                       <Image
                         width="10"

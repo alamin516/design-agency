@@ -1,7 +1,12 @@
+'use client'
 import Link from 'next/link'
-import React from 'react'
+import { usePathname } from 'next/navigation';
+
 
 const Navbar = () => {
+    const current=usePathname();
+
+
   return (
     <header className='relative top-[15px]'>
         <div className='container-layout py-[5px]'>
@@ -12,19 +17,19 @@ const Navbar = () => {
                 <div>
                     <ul className='flex justify-between gap-[30px]'>
                         <li className='flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium'>
-                            <Link href="/">Home</Link>
+                            <Link href="/" className={current==="/"? "text-[#20B15A] font-semibold": ""}>Home</Link>
                         </li>
                         <li className='flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium'>
-                            <Link href="/team">Team</Link>
+                            <Link href="/team" className={current==="/team"? "text-[#20B15A] font-semibold": ""}>Team</Link>
                         </li>
                         <li className='flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium'>
-                            <Link href="/service">Service</Link>
+                            <Link href="/service" className={current==="/service"? "text-[#20B15A] font-semibold": ""}>Service</Link>
                         </li>
                         <li className='flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium'>
-                            <Link href="/projects">Projects</Link>
+                            <Link href="/projects" className={current==="/projects"? "text-[#20B15A] font-semibold": ""}>Projects</Link>
                         </li>
                         <li className='flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium'>
-                            <Link href="/testimonials">Testimonials</Link>
+                            <Link href="/testimonials" className={current==="/testimonials"? "text-[#20B15A] font-semibold": ""}>Testimonials</Link>
                         </li>
                         <li className='w-[93px] flex gap-[10px] justify-center p-[10px] leading-6 border-[1px] rounded-[10px] border-[#20B15A] text-base font-medium'>
                             <Link href="#">Login</Link>
