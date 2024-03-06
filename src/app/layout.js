@@ -12,7 +12,7 @@ export async function generateMetadata() {
     title: "Design Agency",
     description: "Design Agency - Let's build a awesome work together",
     keywords: "design agency, web agency",
-    metadataBase: new URL("https://acme.com"),
+    metadataBase: new URL("https://design-agency-next.vercel.app"),
     alternates: {
       canonical: "/",
       languages: {
