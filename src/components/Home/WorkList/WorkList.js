@@ -5,7 +5,7 @@ import React from "react";
 const WorkList = () => {
   return (
     <div className="py-[67px]">
-      <div className="w-[495px] mb-[50px]">
+      <div className="lg:w-[495px] mb-[50px]">
         <h5 className="text-xl font-medium text-[#20B15A] uppercase mb-5">
           Work List
         </h5>

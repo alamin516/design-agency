@@ -25,6 +25,31 @@
   margin-top: 115px;
 }
 
+
+/* Mobile menu styles */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70%; /* Adjust the width as needed */
+  background-color: white;
+  z-index: 999;
+  transition: transform 3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+/* Hamburger icon styles */
+.mobile-menu-icon {
+  cursor: pointer;
+  outline: none;
+}
+
+
 /* Work List */
 .worklist-card:hover {
   border-radius: 20px;
@@ -79,14 +104,14 @@
   border-radius: 20px;
 }
 
-.social-icons {
+/* .social-icons {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
 .team-member:hover .social-icons {
   opacity: 1;
-}
+} */
 
 /* Breadcrumb */
 .navbar-breadcrumb {
