@@ -31,5 +31,5 @@
 14. Vercel 
 
 # Live Link
-This is a [\[`live link`\]](https://design-agency-next.vercel.app/testimonials) project
+This is a [\[`live link`\]](https://design-agency-next.vercel.app) project
 
