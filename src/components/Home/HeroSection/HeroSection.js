@@ -10,11 +10,11 @@ const HeroSection = () => {
         <div>
           <div className="lg:flex justify-between gap-[80px]">
             <div className="lg:w-1/2 pt-[100px]">
-              <h2 className="text-[50px] font-bold leading-[65px]">
+              <h2 className="lg:text-[50px] text-3xl font-bold lg:leading-[65px] leading-[45px]">
                 Increase Your <br /> Customers Loyalty <br /> and Satisfaction
               </h2>
               <p className="text-xl font-medium">
-                We help businesses like yours earn more customers, <br />{" "}
+                We help businesses like yours earn more customers, <br className="lg:block hidden" />{" "}
                 standout from competitors, make more money
               </p>
               <button className="px-[30px] py-5 rounded-[16px] text-white font-medium mt-10 bg-[#20B15A]">
