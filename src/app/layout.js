@@ -20,6 +20,9 @@ export async function generateMetadata(){
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name={process.env.CONTENT_NAME} content={process.env.CONTENT_KEY} />
+      </Head>
       <body className={inter.className}>
         <NextTopLoader
         color="#20B15A"
