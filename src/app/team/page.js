@@ -17,7 +17,7 @@ const Team = () => {
                 Check our awesome team members
               </h2>
             </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-[27px]">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-[27px]">
               <div className="team-member relative">
                 <Image
                   height={387}
@@ -26,19 +26,19 @@ const Team = () => {
                   alt=""
                   blurDataURL="/blur.png"
                   placeholder="blur"
+                  className="team-member-img"
                 />
-                <div className="text-center pt-[25px] pb-[45px]">
-                  <h3 className="text-[30px] font-semibold leading-[26px]">
+                <div className="text-center py-[25px]">
+                  <h3 className="lg:text-[30px] text-2xl font-semibold leading-[26px]">
                     Devon Lane
                   </h3>
-                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around px-4 mt-2">
                     <Link href="#">
                       <Image
                         width="10"
                         height="16"
                         src="/images/social/facebook.png"
                         alt=""
-                        
                       />
                     </Link>
                     {"|"}
@@ -70,12 +70,13 @@ const Team = () => {
                   alt=""
                   blurDataURL="/blur.png"
                   placeholder="blur"
+                  className="team-member-img"
                 />
-                <div className="text-center pt-[25px] pb-[45px]">
-                  <h3 className="text-[30px] font-semibold leading-[26px]">
+                <div className="text-center py-[25px]">
+                  <h3 className="lg:text-[30px] text-2xl font-semibold leading-[26px]">
                     Danny Bailey
                   </h3>
-                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around px-4 mt-2">
                     <Link href="#">
                       <Image
                         width="10"
@@ -113,12 +114,13 @@ const Team = () => {
                   alt=""
                   blurDataURL="/blur.png"
                   placeholder="blur"
+                  className="team-member-img"
                 />
-                <div className="text-center pt-[25px] pb-[45px]">
-                  <h3 className="text-[30px] font-semibold leading-[26px]">
+                <div className="text-center py-[25px]">
+                  <h3 className="lg:text-[30px] text-2xl font-semibold leading-[26px]">
                     Alex Lov
                   </h3>
-                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around absolute top-[301px] left-[116px] px-4">
+                  <div className="social-icons w-[145px] h-[50px] mx-auto rounded-[25px] text-[#737588] bg-white flex gap-2 items-center justify-around px-4 mt-2">
                     <Link href="#">
                       <Image
                         width="10"

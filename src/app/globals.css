@@ -230,5 +230,12 @@
     text-align: center;
   }
 
+  .team-member {
+    width: 100%;
+  }
+
+  .team-member .team-member-img{
+    width: 100%;
+  }
 
 }
