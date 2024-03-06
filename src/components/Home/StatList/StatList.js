@@ -4,7 +4,7 @@ import React from "react";
 const StatList = () => {
   return (
     <div className="py-[66px]">
-      <div className="grid grid-cols-4 ">
+      <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-0 gap-5">
         <div className="stat-card">
             <div className="w-[100px] h-[100px] bg-[#D7F5DC] rounded-[10px] flex items-center justify-center mb-[22px]">
               <Image

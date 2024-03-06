@@ -8,7 +8,7 @@ const Breadcrumb = ({title }) => {
     <div className='navbar-breadcrumb'>
       <Navbar/>
       <div className='breadcrumb container-layout'>
-        <h2 className='text-[#101A29] text-[40px] font-semibold leading-[51px] mb-5'>{title}</h2>
+        <h2 className='title text-[#101A29] lg:text-[40px] font-semibold leading-[51px] lg:mb-5'>{title}</h2>
         <div className=''>
           <h3 className='flex gap-3'>
             <Link href={"/"}><span>Home</span></Link>

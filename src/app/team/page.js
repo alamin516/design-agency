@@ -17,7 +17,7 @@ const Team = () => {
                 Check our awesome team members
               </h2>
             </div>
-            <div className="grid grid-cols-3 gap-[27px]">
+            <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-[27px]">
               <div className="team-member relative">
                 <Image
                   height={387}

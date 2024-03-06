@@ -7,10 +7,10 @@ const Footer = () => {
   console.log(95 - 57);
   return (
     <footer className="bg-black pt-[57px] pb-[40px]">
-      <div className="container-layout">
-        <div className="flex justify-between gap-[30px]">
-          <div className="w-5/12">
-            <h2 className="text-[40px] font-bold text-white p-[19.6px] leading-[58px]">
+      <div className="container-layout footer-wrapper">
+        <div className="lg:flex justify-between gap-[30px]">
+          <div className="lg:w-5/12">
+            <h2 className="text-[40px] font-bold text-white p-[19.6px] leading-[58px] footer-logo">
               <Link href="/">
                 Design<span className="text-[#F6551A]">AGENCY</span>
               </Link>
@@ -55,28 +55,29 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="w-3/12 mt-[40px]">
-            <h2 className="text-white text-xl font-semibold mb-4">
+          <div className="lg:w-3/12 mt-[40px]">
+            <h2 className="text-white text-xl font-semibold mb-[5px]">
               Quick Links
             </h2>
-            <div className="footer-menu">
+            <hr/>
+            <div className="footer-menu mt-[15px]">
               <ul className="text-white">
-                <li className="mb-[25px]">
+                <li className="mb-3">
                   <Link href="/" className="text-lg">
                     Service
                   </Link>
                 </li>
-                <li className="mb-[25px]">
+                <li className="mb-3">
                   <Link href="/" className="text-lg">
                     Portfolio
                   </Link>
                 </li>
-                <li className="mb-[25px]">
+                <li className="mb-3">
                   <Link href="/" className="text-lg">
                     About Us
                   </Link>
                 </li>
-                <li className="mb-[25px]">
+                <li className="mb-3">
                   <Link href="/" className="text-lg">
                     Contact Us
                   </Link>
@@ -84,11 +85,12 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="w-4/12 mt-[40px] text-white ">
-            <h2 className="text-xl font-semibold mb-[25px]">
+          <div className="lg:w-4/12 mt-[40px] text-white ">
+            <h2 className="text-xl font-semibold mb-[5px]">
               Address
             </h2>
-            <p className="text-xl font-medium leading-[27.32px]">Design Agency Head Office. <br/> Airport Road <br/> United Arab Emirate</p>
+            <hr/>
+            <p className="text-xl font-medium leading-[27.32px] mt-[20px]">Design Agency Head Office. <br/> Airport Road <br/> United Arab Emirate</p>
           </div>
         </div>
         <p className="copyright-text text-white mt-[60px]">

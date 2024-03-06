@@ -5,7 +5,7 @@ const FeaturedProject = () => {
   return (
     <div className="pt-[62px] pb-[84px] bg-[#F0FDF4]">
       <div className="container-layout">
-        <div className="w-[495px] mb-[72px]">
+        <div className="lg:w-[495px] mb-[72px]">
           <h5 className="text-xl font-medium text-[#20B15A] uppercase mb-6">
             Featured Project
           </h5>
@@ -13,8 +13,8 @@ const FeaturedProject = () => {
             We provide the Perfect Solution to your business growth
           </h2>
         </div>
-        <div className="flex gap-[30px]">
-          <div className="w-1/2">
+        <div className="lg:flex gap-[30px]">
+          <div className="lg:w-1/2 w-full">
             <div className="featured-card">
               <Image
                 height={531}
@@ -32,7 +32,7 @@ const FeaturedProject = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2 flex flex-col gap-[30px]">
+          <div className="lg:w-1/2 w-full flex flex-col gap-[30px]">
             <div className="flex gap-[30px]">
               <div className="featured-card">
                 <Image

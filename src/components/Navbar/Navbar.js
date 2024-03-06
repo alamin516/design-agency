@@ -19,7 +19,7 @@ const Navbar = () => {
                 </h2>
               </div>
               <div>
-                <ul className="flex justify-between gap-[30px]">
+                <ul className="flex justify-between gap-[30px] nav-menu">
                   <li className="flex gap-[10px] justify-center p-[10px] leading-6 text-base font-medium">
                     <Link
                       href="/"

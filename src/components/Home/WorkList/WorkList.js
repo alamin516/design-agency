@@ -13,7 +13,7 @@ const WorkList = () => {
           We provide the Perfect Solution to your business growth
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-[43px]">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-[43px]">
         <div className="worklist-card py-[50px] px-[30px]">
           <Image
             height={93.33}

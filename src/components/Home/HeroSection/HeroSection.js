@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "../../Navbar/Navbar";
+import Brands from "@/components/Brands/Brands";
 
 const HeroSection = () => {
   return (
@@ -7,8 +8,8 @@ const HeroSection = () => {
       <Navbar />
       <div className="container-layout">
         <div>
-          <div className="flex justify-between gap-[80px]">
-            <div className="w-1/2 pt-[100px]">
+          <div className="lg:flex justify-between gap-[80px]">
+            <div className="lg:w-1/2 pt-[100px]">
               <h2 className="text-[50px] font-bold leading-[65px]">
                 Increase Your <br /> Customers Loyalty <br /> and Satisfaction
               </h2>
@@ -20,7 +21,7 @@ const HeroSection = () => {
                 Get Started
               </button>
             </div>
-            <div className="w-1/2 pt-[61px] flex flex-col  gap-[18px]">
+            <div className="lg:w-1/2 pt-[61px] flex flex-col  gap-[18px]">
               <div className="flex justify-end  gap-[18px]">
                 <Image
                   src="/images/Rectangle 1241.png"
@@ -62,46 +63,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="mt-[80px] bg-[#F8FFF9]">
-        <div className="w-[1440px] px-[100px] mx-auto flex justify-between items-center h-[120px]">
-          <Image
-            src="/images/partner/logos_google.png"
-            height={30}
-            width={90}
-            alt=""
-          />
-          <Image
-            src="/images/partner/Trello-logo-blue 1.png"
-            height={30}
-            width={142}
-            alt=""
-            blurDataURL="/blur.png"
-            placeholder="blur"
-          />
-          <Image
-            src="/images/partner/logos_monday.png"
-            height={30}
-            width={156}
-            alt=""
-            blurDataURL="/blur.png"
-            placeholder="blur"
-          />
-          <Image
-            src="/images/partner/Notion.png"
-            height={30}
-            width={81}
-            alt=""
-            blurDataURL="/blur.png"
-            placeholder="blur"
-          />
-          <Image
-            src="/images/partner/Slack.png"
-            height={30}
-            width={115}
-            alt=""
-            blurDataURL="/blur.png"
-            placeholder="blur"
-          />
-        </div>
+        <Brands/>
       </div>
     </div>
   );
