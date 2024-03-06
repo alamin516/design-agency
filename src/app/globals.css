@@ -35,7 +35,7 @@
   width: 70%; /* Adjust the width as needed */
   background-color: white;
   z-index: 999;
-  transition: transform 3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   transform: translateX(-100%);
 }
 
@@ -48,7 +48,6 @@
   cursor: pointer;
   outline: none;
 }
-
 
 /* Work List */
 .worklist-card:hover {
@@ -167,7 +166,7 @@
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container-layout {
     width: 100%; /* Adjust the width as needed */
     margin: 0 auto;
@@ -228,5 +227,6 @@
     gap: 20px;
     text-align: center;
   }
+
 
 }

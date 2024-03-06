@@ -14,7 +14,7 @@ const Projects = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-[30px]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
             <div className="project-card">
               <Image
                 width={544}
@@ -24,6 +24,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
@@ -40,6 +41,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
@@ -56,6 +58,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
@@ -72,6 +75,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
@@ -88,6 +92,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
@@ -104,6 +109,7 @@ const Projects = () => {
                 className="h-[472px] rounded-[20px]"
                 blurDataURL="/blur.png"
                 placeholder="blur"
+                layout="responsive"
               />
               <div className="mt-[30px]">
                 <h2 className="text-[26px] font-semibold leading-[39px] uppercase">
