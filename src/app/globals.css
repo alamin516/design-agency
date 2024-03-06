@@ -190,15 +190,17 @@
     height: 250px;
   }
 
-  .newsletter input[type="text"] {
+  .newsletter input{
     padding: 8px 10px;
+    font-size: 14px;
+    width: 70%;
   }
   
   .newsletter button {
-    padding: 8px 24px;
+    padding: 5px 16px;
     border-radius: 10px;
     background: #f55f1d;
-    height: 52px;
+    height: 36px;
     color: #ffffff;
   }
 
