@@ -5,7 +5,7 @@ const Service = () => {
     <>
       <div className="container-layout">
         <div className="py-[67px]">
-          <div className="w-[495px] mb-[50px]">
+          <div className="lg:w-[495px] mb-[50px]">
             <h5 className="text-xl font-medium text-[#20B15A] uppercase mb-5">
               Our All Services
             </h5>
@@ -15,7 +15,7 @@ const Service = () => {
           </div>
           <div className="flex flex-col gap-[50px]">
             {/* Row 1 */}
-            <div className="flex gap-[30px]">
+            <div className="flex lg:flex-row flex-col gap-[30px]">
               {/* service-card  Start*/}
               <div className="service-card">
                 <h2 className="text-[26px] font-semibold leading-[39px] mb-5">
@@ -142,7 +142,7 @@ const Service = () => {
             </div>
 
             {/* Row 2 */}
-            <div className="flex gap-[30px]">
+            <div className="flex lg:flex-row flex-col gap-[30px]">
               {/* service-card  Start*/}
               <div className="service-card">
                 <h2 className="text-[26px] font-semibold leading-[39px] mb-5">
